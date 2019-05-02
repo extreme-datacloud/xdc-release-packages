@@ -1,6 +1,6 @@
 [XDC-1-base]
 name=XDC-1 - Base
-baseurl=http://repo.indigo-datacloud.eu/repository/xdc/production/1/centos7/$basearch/base
+baseurl=https://repo.indigo-datacloud.eu/repository/xdc/production/1/centos7/$basearch/base
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed

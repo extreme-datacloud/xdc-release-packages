@@ -9,4 +9,4 @@ Package:  xdc-release
 Architecture:  any
 Depends:   
 Description:  eXtreme-DataCloud  release repositories files
- contains xc-release version and protection configuration of the eXtreme-DataCloud repositories
+ contains xdc-release version and protection configuration of the eXtreme-DataCloud repositories

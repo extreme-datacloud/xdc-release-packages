@@ -1,4 +1,3 @@
 etc/xdc-release
 etc/apt/sources.list.d/xdc-1.list
 etc/apt/preferences.d/xdc-1
-etc/apt/trusted.gpg.d/indigo-dc
