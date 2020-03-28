@@ -21,9 +21,11 @@ install:
 	@mkdir -p $(prefix)/etc/apt
 	@mkdir -p $(prefix)/etc/apt/sources.list.d
 	@mkdir -p $(prefix)/etc/apt/preferences.d
+	@mkdir -p $(prefix)/etc/apt/trusted.gpg.d
 	@install -m 0644 etc/xdc-release $(prefix)/etc
 	@install -m 0644 etc/apt/sources.list.d/xdc-2.list $(prefix)/etc/apt/sources.list.d
 	@install -m 0644 etc/apt/preferences.d/xdc-2 $(prefix)/etc/apt/preferences.d
+	@install -m 0644 etc/apt/trusted.gpg.d/indigo-dc.gpg $(prefix)/etc/apt/trusted.gpg.d
 
 ###########################################################$(DESTDIR)#########
 # Build Distribution
