@@ -1,0 +1,7 @@
+xdc-release (2.0.0-1) unstable; urgency=low
+
+  * Adding repository key
+
+  * Second release using dpkg-source 3.0 (quilt) format
+
+ -- Cristina Duma <aiftim@infn.it>  Wed, 15 Nov 2019 22:43:00 +0000

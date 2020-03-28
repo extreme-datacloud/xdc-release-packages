@@ -1,6 +1,6 @@
-[XDC-1-third-party]
-name=XDC-1 - third-party
-baseurl=https://repo.indigo-datacloud.eu/repository/xdc/production/1/centos7/$basearch/third-party
+[XDC-2-third-party]
+name=XDC-2 - third-party
+baseurl=https://repo.indigo-datacloud.eu/repository/xdc/production/2/centos7/$basearch/third-party
 protect=1
 enabled=1
 # To use priorities you must have yum-priorities installed

@@ -1,0 +1,7 @@
+#### XDC-2 - Base repository - must be enabled ####
+deb [arch=amd64] https://repo.indigo-datacloud.eu/repository/xdc/production/2/ubuntu/ xenial main third-party
+#deb-src https://repo.indigo-datacloud.eu/repository/xdc/production/2/ubuntu/ xenial main third-party
+
+#### XDC-2 - Updates to Base repository - should be enabled ####
+deb [arch=amd64] https://repo.indigo-datacloud.eu/repository/xdc/production/2/ubuntu/ xenial-updates main third-party
+#deb-src https://repo.indigo-datacloud.eu/repository/xdc/production/2/ubuntu/ xenial-updates main third-party

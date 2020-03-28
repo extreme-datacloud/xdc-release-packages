@@ -1,7 +1,7 @@
 Name: xdc-release
-Version: 1.0.0
+Version: 2.0.0
 Release: 1%{?dist}
-Summary: XDC-1 (Pulsar) Release
+Summary: XDC-2 (Quasar) Release
 License: Apache Software License
 Source: %{name}-%{version}.src.tgz
 Vendor: eXtreme-DataCloud
@@ -40,10 +40,10 @@ if [ "$1" = "0" ]; then grep -q -e "xdc-release" /etc/yum/pluginconf.d/prioritie
 
 /etc/xdc-release
 /etc/pki/rpm-gpg/RPM-GPG-KEY-indigodc
-/etc/yum.repos.d/xdc-1-base.repo
-/etc/yum.repos.d/xdc-1-third-party.repo
-/etc/yum.repos.d/xdc-1-updates.repo
+/etc/yum.repos.d/xdc-2-base.repo
+/etc/yum.repos.d/xdc-2-third-party.repo
+/etc/yum.repos.d/xdc-2-updates.repo
 
 %changelog
-* Thu Nov 01 2018 Cristina Duma <aiftim@infn.it>
-- first release
+* Thu Nov 13 2019 Cristina Duma <aiftim@infn.it>
+- second release

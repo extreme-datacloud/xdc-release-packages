@@ -1,0 +1,12 @@
+Source:  xdc-release
+Build-Depends:  debhelper
+Section:  devel
+Priority:  optional
+Maintainer:  Cristina Duma <aiftim@infn.it>
+Standards-Version:  3.9.2
+
+Package:  xdc-release
+Architecture:  any
+Depends:   
+Description:  eXtreme-DataCloud  release repositories files
+ contains xdc-release version and protection configuration of the eXtreme-DataCloud repositories
